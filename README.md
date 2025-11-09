@@ -103,4 +103,4 @@ Chippala Sree Ranganath
 
 📘 Trained under NxtWave CCBP 4.0 Technologies
 
-🔗 GitHub: https://github.com/sreeranga-chippala
+🔗 GitHub: https://github.com/sreeranga-chippala/SmartDataValidator
