@@ -1,7 +1,7 @@
 class DataValidationError(Exception):
     pass
 class MissingValueError(DataValidationError):
-    def ___init___(self, field):
+    def __init__(self, field):
         message=f"Missing field:{field}"
         super().__init__(message)
 class InvalidTypeError(DataValidationError):
