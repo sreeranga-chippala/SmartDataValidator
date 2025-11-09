@@ -16,10 +16,10 @@ iv=0
 for record in records:
     try:
         validate_record(record)
-        print(f"✅ Valid record → {record}")
+        print(f"✅ Valid record : {record}")
         v+=1
     except DataValidationError as e:
-        print(f"❌ Invalid record → {e}")
+        print(f"❌ Invalid record : {e}")
         iv+=1
 print("The count of valid and invalid :")
 print(f"Valid:{v}\nInvalid:{iv}")
