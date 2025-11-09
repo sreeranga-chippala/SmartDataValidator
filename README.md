@@ -34,31 +34,49 @@ SmartDataValidator/
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
+
 git clone https://github.com/sreeranga-chippala/SmartDataValidator.git
+
 cd SmartDataValidator
 
 2️⃣ Create and Activate Virtual Environment
+
 python3 -m venv venv
+
 source venv/bin/activate
 
 3️⃣ Run the Program
+
 python3 main.py
 
 🧠 Sample Output
+
 🧠 Smart Data Validator 🧠
 
 ✅ Valid record → {'name': 'Ravi', 'age': 21, 'score': 88}
-❌ Invalid record → The value -3 is out of range. The minimum is 5 and maximum is 100
+
+❌ Invalid record → The value -3 is out of range. The minimum is 5 and 
+
+maximum is 100
+
 ❌ Invalid record → Field 'score' is missing
+
 ✅ Summary: 1 valid, 2 invalid
 
 🧰 Concepts Demonstrated
+
 Concept	Description
+
 Custom Exceptions	Defines reusable, domain-specific error classes
+
 Modular Design	Separates logic for clarity and reusability
+
 Error Handling	Demonstrates nested and chained exception handling
+
 Input Validation	Simulates real-world data checks
+
 Clean Code Principles	Readable, scalable, and production-oriented structure
+
 🛠️ Tech Stack
 
 🐍 Python 3.14
@@ -70,13 +88,19 @@ Clean Code Principles	Readable, scalable, and production-oriented structure
 💡 Future Enhancements
 
 ✨ Add CSV file input validation
+
 ✨ Integrate with Pandas for dataset validation
+
 ✨ Log validation results into external files
+
 ✨ Build Streamlit dashboard for visual error reports
 
 👨‍💻 Author
 
 Chippala Sree Ranganath
+
 🎓 B.E. in Artificial Intelligence and Machine Learning – MSRIT
+
 📘 Trained under NxtWave CCBP 4.0 Technologies
+
 🔗 GitHub: https://github.com/sreeranga-chippala
