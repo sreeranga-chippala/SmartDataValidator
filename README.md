@@ -10,8 +10,8 @@ This project demonstrates how Python’s exception handling and modular structur
 The **Smart Data Validator** simulates a real-world data quality pipeline.  
 It automatically checks for:
 
-- Missing fields (e.g., `name`, `age`, `score`)  
-- Invalid data types (e.g., age given as a string instead of an integer)  
+- Missing fields (e.g., `name`, `age`, `score`)
+- Invalid data types (e.g., age given as a string instead of an integer)
 - Out-of-range values (e.g., negative marks or unrealistic numbers)
 
 💡 This project helps you understand how **custom exception classes** can make debugging and data validation more structured and scalable — a critical concept for AI/ML pipelines, data preprocessing, and backend validation systems.
@@ -37,6 +37,7 @@ SmartDataValidator/
 ├── exceptions.py # Custom exception classes
 └── README.md # Project documentation
 
+
 ---
 
 ## ⚙️ Installation & Setup
@@ -49,7 +50,6 @@ cd SmartDataValidator
 2️⃣ Create and Activate Virtual Environment
 
 python3 -m venv venv
-
 source venv/bin/activate
 
 3️⃣ Run the Program
@@ -77,21 +77,11 @@ python3 main.py
 
 🛠️ Tech Stack
 
-🐍 Python 3.14
+*🐍 Python 3.14
 
-🧱 VS Code
+*🧱 VS Code
 
-🔗 Git & GitHub
-
-💡 Future Enhancements
-
-✨ Add CSV file input validation
-
-✨ Integrate with Pandas for dataset validation
-
-✨ Log validation results into external files
-
-✨ Build Streamlit dashboard for visual error reports
+*🔗 Git & GitHub
 
 💡 Future Enhancements
 
@@ -106,10 +96,6 @@ python3 main.py
 👨‍💻 Author
 
 Chippala Sree Ranganath
-
 🎓 B.E. in Artificial Intelligence and Machine Learning – MSRIT
-
 📘 Trained under NxtWave CCBP 4.0 Technologies
-
 🔗 GitHub: https://github.com/sreeranga-chippala
-
