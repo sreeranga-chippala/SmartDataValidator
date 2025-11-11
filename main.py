@@ -21,6 +21,6 @@ for record in records:
     except DataValidationError as e:
         print(f"❌ Invalid record : {e}")
         iv+=1
-print("The count of valid and invalid :")
+print("The count of valid and invalid:")
 print(f"Valid:{v}\nInvalid:{iv}")
 print("\nValidation completed.")
