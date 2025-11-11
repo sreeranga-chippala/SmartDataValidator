@@ -38,15 +38,15 @@ SmartDataValidator/
 ├── exceptions.py # Custom exception classes
 └── README.md # Documentation (you’re reading it!)
 
-
 ---
 
 ## ⚙️ Installation & Setup
 
-###1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/sreeranga-chippala/SmartDataValidator.git
 cd SmartDataValidator
+
 
 2️⃣ Create & Activate Virtual Environment
 
